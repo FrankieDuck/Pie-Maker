@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(62, 62, 62);
+    font-family: "IBM Plex Sans";
+    font-size: larger;
+    background-image: url("../public/images/Logos/background.png");
+    background-size: 2200px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.meatcards {
+    cursor: pointer;
+    background: rgb(157, 99, 113);
+}
+
+.vegetable-cards {
+    cursor: pointer;
+    background: rgb(146, 169, 101);
+}
+
+.extracards {
+    cursor: pointer;
+    background: rgb(206, 139, 103);
+}
+
+.crustcards {
+    cursor: pointer;
+    background: rgb(227, 213, 123);
+}
+
+.green-button {
+    background-color: "#325B4F";
+    border: "hidden";
+}
+
+/* .meatcards:active {
+    background: rgb(168, 63, 63);
+} */
+
+.selectedCard {
+    background: rgb(157, 99, 113);
+}
+
+#basic-nav-dropdown {
+    color: white;
+}
+
+.menu-cards:hover {
+    background: rgb(146, 169, 101);
+}
